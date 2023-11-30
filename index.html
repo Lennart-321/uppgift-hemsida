@@ -4,47 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uppgift Hemsida</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="header-cls">
       <h3>Uppgift Hemsida &nbsp; Lennart &nbsp; Medelålders vit man</h3>
     </header>
     <main>
-      <img src="bild.png" alt="Lennart" />
+      <img class="main-img" src="bild.png" alt="Lennart" />
 
-      <p>
-        <img src="tv.jpg" alt="TV" width="30px" />
+      <p class="main-p">
+        <img class="p-img" src="tv.jpg" alt="TV" width="30px" />
         Jag titta ofta på TV. En del sport. Lite skräckfilmer. Ibland även
         nyheter och väder.
       </p>
-      <p>
-        <img src="frontend.png" alt="Frontend" width="30px" />
+      <p class="main-p">
+        <img class="p-img" src="frontend.png" alt="Frontend" width="30px" />
         Just nu går jag på frontendkurs. Det är roligt. Vi får lära oss HTML.
         Sen kommer vi få lära oss JavaScript också.
       </p>
-      <p>
-        <img src="carlos.jpg" alt="Carlos Castaneda" width="30px" />
+      <p class="main-p">
+        <img
+          class="p-img"
+          src="carlos.jpg"
+          alt="Carlos Castaneda"
+          width="30px"
+        />
         Min favoritförfattare är Carlos Castaneda. Han har skrivit många böcker.
       </p>
 
       <ul>
         <li>
-          <a href="https://www.smhi.se/q/Stockholm/2673730" target="_blank"
+          <a
+            class="link-in-list"
+            href="https://www.smhi.se/q/Stockholm/2673730"
+            target="_blank"
             >Vädret</a
           >
         </li>
         <li>
           <a
+            class="link-in-list"
             href="https://www.imdb.com/search/title/?genres=horror"
             target="_blank"
             >Skräckfilmer</a
           >
         </li>
         <li>
-          <a href="https://www.svtplay.se/" target="_blank">TV</a>
+          <a class="link-in-list" href="https://www.svtplay.se/" target="_blank"
+            >TV</a
+          >
         </li>
         <li>
           <a
+            class="link-in-list"
             href="https://www.lexicon.se/Utbildningar/IT/IT-proffs-utbildning/systemutveckling/frontend-utvecklare-distansutbildning/"
             target="_blank"
             >Frontend kurs</a
@@ -52,6 +65,7 @@
         </li>
         <li>
           <a
+            class="link-in-list"
             href="https://en.wikipedia.org/wiki/Carlos_Castaneda"
             target="_blank"
             >Carlos Castaneda</a
@@ -59,7 +73,7 @@
         </li>
       </ul>
     </main>
-    <footer>
+    <footer class="footer-cls">
       <p>&copy; Lennart 2023</p>
       <p>Senast ändrad 2023-11-30</p>
     </footer>

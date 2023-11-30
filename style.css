@@ -1,0 +1,24 @@
+.header-cls,
+.link-in-list {
+  font-family: "Courier New", Courier, monospace;
+}
+.header-cls {
+    font-size: larger;
+}
+.footer-cls {
+  font-style: italic;
+}
+.main-p {
+  color: blue;
+  font-weight: bold;
+}
+.link-in-list {
+  font-size: smaller;
+}
+.main-img {
+  border: 2px double black;
+}
+.p-img {
+  padding: 3px;
+  border: 4px double red;
+}
